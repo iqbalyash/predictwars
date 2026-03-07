@@ -22,6 +22,13 @@ npx wrangler deploy --assets=./out
 ```
 Build command stays `npm run build`; build output directory stays `out`.
 
+**Option B2 — Single command (if B still fails)**  
+Sometimes the deploy step runs without the build output. Run build and deploy together:
+- **Build command:** `npm run build:deploy`
+- **Deploy command:** `true` (or leave blank if allowed)
+
+`build:deploy` runs `npm run build && npx wrangler deploy --assets=./out` so `out/` exists when Wrangler runs.
+
 **Option C — Use Pages instead**  
 Replace the deploy command with:
 ```bash
