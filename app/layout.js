@@ -28,6 +28,9 @@ export const metadata = {
     maximumScale: 5,
   },
   robots: { maxImagePreview: "large" },
+  verification: {
+    google: "APp84xEubrUcPdWTB9sJYpSvR4nPOTeL6lJCvRmbu3Q",
+  },
   openGraph: {
     title: "Learn How to Predict Global Conflicts and Geopolitical Events",
     description:
