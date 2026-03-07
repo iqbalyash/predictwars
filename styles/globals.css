@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  /* PredictWars theme */
+  --pw-navy: #0a1628;
+  --pw-navy-light: #0f2744;
+  --pw-navy-card: #132238;
+  --pw-accent-red: #ef4444;
+  --pw-accent-orange: #f97316;
+  --pw-accent-yellow: #eab308;
+  --pw-accent-blue: #38bdf8;
+  --pw-accent-glow: rgba(56, 189, 248, 0.4);
+  --pw-glass: rgba(15, 39, 68, 0.7);
+  --pw-glass-border: rgba(56, 189, 248, 0.15);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* PredictWars homepage: dark theme when inside .pw-home */
+.pw-home {
+  background: var(--pw-navy);
+}
+
+/* Hero map glow animation */
+@keyframes pw-glow-pulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+@keyframes pw-hotspot-shine {
+  0%, 100% { box-shadow: 0 0 20px var(--pw-accent-red), 0 0 40px rgba(239, 68, 68, 0.3); }
+  50% { box-shadow: 0 0 30px var(--pw-accent-orange), 0 0 60px rgba(249, 115, 22, 0.4); }
+}
+
+.animate-pw-glow {
+  animation: pw-glow-pulse 4s ease-in-out infinite;
+}
+
+.animate-pw-hotspot {
+  animation: pw-hotspot-shine 3s ease-in-out infinite;
+}
+
+/* Glassmorphism */
+.pw-glass {
+  background: var(--pw-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--pw-glass-border);
+}
+
+/* Button glossy hover */
+.pw-btn-glossy {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.pw-btn-glossy:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 25px -5px rgba(56, 189, 248, 0.25), 0 4px 10px -6px rgba(56, 189, 248, 0.2);
+}
+
+/* Card hover lift */
+.pw-card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.pw-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(56, 189, 248, 0.08);
+}
