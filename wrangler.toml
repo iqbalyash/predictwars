@@ -1,8 +1,0 @@
-# Static site deploy via "npx wrangler deploy"
-# Build output: npm run build → out/
-
-name = "predictwars"
-compatibility_date = "2026-03-07"
-
-[assets]
-directory = "./out"
