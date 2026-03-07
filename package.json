@@ -11,7 +11,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "deploy:pages": "npm run build && npx wrangler pages deploy out --project-name=predictwars"
+    "deploy:pages": "npm run build && npx wrangler pages deploy out --project-name=predictwars",
+    "deploy": "npx wrangler deploy --assets=./out"
   },
   "dependencies": {
     "next": "16.1.6",

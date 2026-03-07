@@ -10,25 +10,26 @@ If deployment failed with an error about `.next/standalone` or `pages-manifest.j
 
 ## Fix without creating a new project (change deploy command)
 
-Your build **succeeds** (`npm run build` → `out/` is created). The failure happens at **deploy** because Cloudflare runs `npx wrangler deploy`, which uses OpenNext and expects a server build.
+Your build **succeeds** (`npm run build` → `out/` is created). The failure happens at **deploy** because Cloudflare runs `npx wrangler deploy`, which then reports “Missing entry-point” or “assets directory”.
 
-**Do this:**
+**Option A — Use the repo’s config**  
+The repo’s `wrangler.toml` is set up so `npx wrangler deploy` deploys the `out/` folder. Ensure the **latest** `wrangler.toml` is committed and pushed to GitHub, then retry the deployment.
 
-1. In the [Cloudflare dashboard](https://dash.cloudflare.com), go to **Workers & Pages** → your **predictwars** project.
-2. Open **Settings** → **Builds & deployments**.
-3. Find **Deploy command** (or “Build command” / “Commands” section where the deploy step is set).
-4. **Replace** the current deploy command (`npx wrangler deploy` or similar) with:
-   ```bash
-   npx wrangler pages deploy out --project-name=predictwars
-   ```
-5. Ensure **Build command** is `npm run build` and **Build output directory** is `out`.
-6. Save and trigger a new deployment (e.g. push a commit or “Retry deployment”).
+**Option B — Override the deploy command**  
+In **Settings** → **Builds & deployments**, set the deploy command to:
+```bash
+npx wrangler deploy --assets=./out
+```
+Build command stays `npm run build`; build output directory stays `out`.
 
-After this, the flow is: build → `out/` is created → deploy uploads `out/` to Cloudflare Pages. No OpenNext, no Workers server.
+**Option C — Use Pages instead**  
+Replace the deploy command with:
+```bash
+npx wrangler pages deploy out --project-name=predictwars
+```
+(Requires a Pages project named `predictwars` to exist.)
 
-**Note:** The Pages project `predictwars` must exist. If it doesn’t, create it first: **Workers & Pages** → **Create** → **Pages** → **Create project** → name it `predictwars` (no Git connection is needed). Then the deploy command above will upload to it.
-
-If your project is under **Workers** and you cannot change the deploy command, use Option 1 below (new Pages project) instead.
+Or follow Option 1 below to create a new Pages project and use **Next.js (Static HTML Export)** with no custom deploy command.
 
 ---
 
