@@ -2,6 +2,10 @@
   "name": "predictwars",
   "version": "0.1.0",
   "private": true,
+  "description": "Geopolitical forecasting and conflict prediction — static Next.js export for Cloudflare Pages",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

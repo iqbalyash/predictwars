@@ -1,6 +1,14 @@
-# Cloudflare Pages — static Next.js export
-# Use this only for a Pages project (not Workers).
-# In dashboard: Create application → Pages → Connect to Git → Framework: Next.js (Static HTML Export)
+# Cloudflare — static Next.js export
+# - For "npx wrangler deploy" (Workers): deploys ./out as static assets.
+# - For "npx wrangler pages deploy out": use pages_build_output_dir (Pages).
 
 name = "predictwars"
+compatibility_date = "2026-03-07"
 pages_build_output_dir = "./out"
+
+# So "npx wrangler deploy" (used by Cloudflare as deploy command) succeeds:
+# deploy the built static site from out/ as Worker assets.
+[assets]
+directory = "./out"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"

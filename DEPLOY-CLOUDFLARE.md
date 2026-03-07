@@ -1,5 +1,7 @@
 # Deploy PredictWars to Cloudflare Pages
 
+This project is **configured for Cloudflare Pages** (static export). Build settings are in [.cloudflare/pages-build-config.md](.cloudflare/pages-build-config.md).
+
 This app uses **Next.js static export** (`output: "export"`). It must be deployed as a **static site** on **Cloudflare Pages**, not on Cloudflare Workers.
 
 If deployment failed with an error about `.next/standalone` or `pages-manifest.json`, Cloudflare is running **`npx wrangler deploy`**, which triggers Workers + OpenNext. Fix it using either option below.
