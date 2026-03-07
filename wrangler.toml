@@ -1,0 +1,6 @@
+# Cloudflare Pages — static Next.js export
+# Use this only for a Pages project (not Workers).
+# In dashboard: Create application → Pages → Connect to Git → Framework: Next.js (Static HTML Export)
+
+name = "predictwars"
+pages_build_output_dir = "./out"
