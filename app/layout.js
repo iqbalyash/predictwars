@@ -31,6 +31,9 @@ export const metadata = {
   verification: {
     google: "APp84xEubrUcPdWTB9sJYpSvR4nPOTeL6lJCvRmbu3Q",
   },
+  icons: {
+    icon: "/Predict-wars-icon.png",
+  },
   openGraph: {
     title: "Learn How to Predict Global Conflicts and Geopolitical Events",
     description:
