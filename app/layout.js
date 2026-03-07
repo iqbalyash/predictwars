@@ -22,6 +22,11 @@ export const metadata = {
     typeof window === "undefined"
       ? new URL("https://www.predictwars.com")
       : new URL(window.location.origin),
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
+  },
   robots: { maxImagePreview: "large" },
   openGraph: {
     title: "Learn How to Predict Global Conflicts and Geopolitical Events",
