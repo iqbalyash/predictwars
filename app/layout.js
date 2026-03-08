@@ -33,6 +33,7 @@ export const metadata = {
   },
   icons: {
     icon: "/Predict-wars-icon.png",
+    apple: "/Predict-wars-icon.png",
   },
   openGraph: {
     title: "Learn How to Predict Global Conflicts and Geopolitical Events",
