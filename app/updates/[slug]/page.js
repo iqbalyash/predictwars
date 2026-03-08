@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { posts } from "@/data/posts";
+import ShareButtons from "@/components/ShareButtons";
 
 export const dynamic = "force-static";
 
@@ -163,6 +164,11 @@ export default async function PostPage({ params }) {
           <h1 className="mt-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">
             {post.title}
           </h1>
+          {post.subtitle && (
+            <p className="mt-2 text-lg text-slate-400">
+              {post.subtitle}
+            </p>
+          )}
           <p className="mt-3 text-sm text-slate-500">
             {new Date(post.date).toLocaleDateString("en-US", {
               year: "numeric",
@@ -171,40 +177,61 @@ export default async function PostPage({ params }) {
             })}
           </p>
 
-          <section className="mt-10 border-t border-slate-700/50 pt-10">
+          <section className="mt-10 border-t border-slate-700/50 pt-10 pw-glass rounded-2xl p-6 sm:p-8">
             <ArticleContent content={post.content} />
           </section>
 
-          <nav className="mt-12 rounded-2xl border border-slate-600/50 bg-[#132238] p-6" aria-label="Related reading">
-            <h2 className="text-lg font-semibold text-white mb-4">Related reading</h2>
-            <ul className="space-y-2 text-sm">
+          <div className="mt-10 flex flex-col gap-6 border-t border-slate-700/50 pt-10">
+            <ShareButtons
+              title={post.title}
+              url={`https://www.predictwars.com/updates/${slug}`}
+            />
+          </div>
+
+          <nav className="mt-12 rounded-2xl pw-glass border border-slate-600/50 p-6 sm:p-8" aria-label="Related reading">
+            <h2 className="text-lg font-semibold text-white mb-4">Explore more</h2>
+            <ul className="space-y-3 text-sm">
               <li>
-                <Link href="/learn-forecasting-methods" className="text-sky-400 hover:text-sky-300">
-                  Geopolitical forecasting methods
+                <Link href="/explore-conflict-predictions" className="text-sky-400 hover:text-sky-300">
+                  Explore Conflict Predictions
                 </Link>
               </li>
               <li>
                 <Link href="/explore-global-risk-index" className="text-sky-400 hover:text-sky-300">
-                  Global conflict risk index
-                </Link>
-              </li>
-              <li>
-                <Link href="/explore-conflict-predictions" className="text-sky-400 hover:text-sky-300">
-                  Conflict prediction analysis
+                  Global Conflict Risk Index
                 </Link>
               </li>
               <li>
                 <Link href="/early-warning-signals" className="text-sky-400 hover:text-sky-300">
-                  Early warning signals of war
+                  Early Warning Signals
                 </Link>
               </li>
               <li>
-                <Link href="/updates" className="text-sky-400 hover:text-sky-300">
-                  Latest updates
+                <Link href="/deep-geopolitical-analysis" className="text-sky-400 hover:text-sky-300">
+                  Case Studies
                 </Link>
               </li>
             </ul>
           </nav>
+
+          <section className="mt-10 rounded-2xl pw-glass border border-slate-600/50 p-6 sm:p-8" aria-labelledby="related-articles-heading">
+            <h2 id="related-articles-heading" className="text-lg font-semibold text-white mb-4">Related articles</h2>
+            <ul className="space-y-3">
+              {posts
+                .filter((p) => p.slug !== slug)
+                .slice(0, 3)
+                .map((p) => (
+                  <li key={p.slug}>
+                    <Link
+                      href={`/updates/${p.slug}`}
+                      className="text-sky-400 hover:text-sky-300 font-medium"
+                    >
+                      {p.title}
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+          </section>
         </main>
       </article>
       {/* Article + Breadcrumb schema for SEO */}
