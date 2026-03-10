@@ -202,35 +202,55 @@ export default async function PostPage({ params }) {
                 </Link>
               </li>
               <li>
-                <Link href="/early-warning-signals" className="text-sky-400 hover:text-sky-300">
-                  Early Warning Signals
+                <Link href="/updates/how-prediction-markets-forecast-wars" className="text-sky-400 hover:text-sky-300">
+                  Prediction Markets Forecast Wars
                 </Link>
               </li>
               <li>
-                <Link href="/deep-geopolitical-analysis" className="text-sky-400 hover:text-sky-300">
-                  Case Studies
+                <Link href="/early-warning-signals" className="text-sky-400 hover:text-sky-300">
+                  Early Warning Signals of War
                 </Link>
               </li>
             </ul>
           </nav>
 
-          <section className="mt-10 rounded-2xl pw-glass border border-slate-600/50 p-6 sm:p-8" aria-labelledby="related-articles-heading">
+          <section className="mt-10" aria-labelledby="related-articles-heading">
             <h2 id="related-articles-heading" className="text-lg font-semibold text-white mb-4">Related articles</h2>
-            <ul className="space-y-3">
+            <div className="grid gap-4 sm:grid-cols-2">
               {posts
                 .filter((p) => p.slug !== slug)
                 .slice(0, 3)
                 .map((p) => (
-                  <li key={p.slug}>
-                    <Link
-                      href={`/updates/${p.slug}`}
-                      className="text-sky-400 hover:text-sky-300 font-medium"
-                    >
-                      {p.title}
-                    </Link>
-                  </li>
+                  <article
+                    key={p.slug}
+                    className="pw-glass border border-slate-600/50 p-4 rounded-2xl flex flex-col justify-between"
+                  >
+                    <div>
+                      <h3 className="text-sm font-semibold text-white">
+                        <Link
+                          href={`/updates/${p.slug}`}
+                          className="hover:text-sky-300"
+                        >
+                          {p.title}
+                        </Link>
+                      </h3>
+                      {p.excerpt && (
+                        <p className="mt-2 text-xs text-slate-400 line-clamp-3">
+                          {p.excerpt}
+                        </p>
+                      )}
+                    </div>
+                    <div className="mt-3">
+                      <Link
+                        href={`/updates/${p.slug}`}
+                        className="text-xs font-medium text-sky-400 hover:text-sky-300"
+                      >
+                        Read analysis →
+                      </Link>
+                    </div>
+                  </article>
                 ))}
-            </ul>
+            </div>
           </section>
         </main>
       </article>

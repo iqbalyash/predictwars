@@ -252,6 +252,109 @@ Prediction markets can provide a real-time view of how participants are pricing 
 For more on how forecasting works in practice, see our resources on [early warning signs](/early-warning-signals), the [global conflict risk index](/explore-global-risk-index), and [geopolitical forecasting methods](/learn-forecasting-methods).`,
   },
   {
+    slug: "when-will-ceasefire-us-israel-iran-war",
+    title: "When Will a Ceasefire Happen in the US–Israel–Iran War?",
+    excerpt:
+      "Prediction markets and conflict indicators offer one lens on when a ceasefire between the US, Israel, and Iran could emerge—and what signals might warn that negotiations are stalling.",
+    date: "2026-03-20",
+    image: "/When-Will-a-Ceasefire-Happen-in-the US–Israel–Iran-War.png",
+    subtitle:
+      "Prediction markets estimate the probability of a ceasefire between the US, Israel and Iran.",
+    content: `## Why Forecasters Track Ceasefire Probabilities
+
+When wars drag on, one of the most urgent questions for policymakers, markets, and the public is: when might a ceasefire take hold? In any prolonged confrontation involving the US, Israel, and Iran, the timing and durability of a ceasefire would shape regional security, energy markets, and humanitarian outcomes.
+
+Rather than predicting a single date, analysts think in terms of probabilities over time—how likely is a ceasefire to be agreed and largely hold within the next month, three months, or year? Prediction markets, scenario analysis, and conflict risk models each provide partial answers, which forecasters combine into a broader picture of ceasefire risk and opportunity.
+
+## How Prediction Markets Frame the Question
+
+### Contract Design: What Counts as a Ceasefire?
+
+Prediction markets that focus on ceasefires must first define the event precisely. Contracts might specify that a ceasefire is considered "in force" if major armed actors publicly announce a ceasefire agreement and large-scale hostilities fall below a defined threshold for a set period—often 7, 30, or 90 days.
+
+This definition matters. A brief pause in fighting or unilateral de-escalation may not qualify. Analysts studying market prices pay close attention to contract wording to avoid misinterpreting what a 30% or 60% probability actually refers to.
+
+### Time Horizons and Expiry Dates
+
+Ceasefire-related markets frequently use specific expiry dates: by the end of a given month, quarter, or year. A contract that pays out if a ceasefire is in effect by a particular date can be interpreted as the market-implied probability of that outcome.
+
+As news breaks—about diplomatic talks, battlefield developments, or external pressure—prices adjust. A sharp rise in prices on near-term contracts may indicate that participants believe negotiations are making progress. For more background on how these markets work, see our overview of [prediction markets that forecast wars](/updates/how-prediction-markets-forecast-wars).
+
+## Signals That Often Precede Ceasefires
+
+### Diplomatic Contact and Mediator Activity
+
+Historically, durable ceasefires are rarely agreed without sustained back-channel or public diplomacy. For any US–Israel–Iran confrontation, analysts watch for reports of shuttle diplomacy by regional powers, quiet meetings hosted by neutral states, and growing involvement from international organizations.
+
+An increase in mediator travel, leaked drafts of framework agreements, or public statements praising “constructive talks” often appear before formal announcements. These signals alone do not guarantee success, but when they intensify alongside other indicators, forecasters may raise their ceasefire probability estimates.
+
+### Shifts in Battlefield Dynamics
+
+Ceasefires are more likely when at least one major actor believes further fighting will not significantly improve its position—or when continued escalation carries unacceptable risk. Analysts monitor casualty trends, territorial control, and the rate of high-intensity strikes.
+
+If fighting becomes costly without clear gains, or if escalation risks drawing in additional powers, elites may become more willing to accept compromise. Conversely, when one side believes it is on the verge of a decisive breakthrough, ceasefire prospects often decline.
+
+### Domestic Political Pressures
+
+Public opinion, elections, and elite coalitions can all shape ceasefire timing. In conflicts involving the US, Israel, and Iran, forecasters look at protests, polling, legislative debates, and elite commentary to gauge whether leaders face mounting pressure to reduce violence.
+
+Sudden shifts in domestic sentiment—such as rising concern about casualties, economic disruption, or international isolation—can accelerate moves toward a ceasefire or constrain leaders who might otherwise favor escalation.
+
+## Integrating Prediction Markets With Other Indicators
+
+### Complementing Early Warning Signals
+
+Our framework for [early warning signals of war](/early-warning-signals) emphasizes military buildup, hostile rhetoric, and diplomatic breakdown. When assessing ceasefire probabilities, analysts often invert this logic: they look for de-escalatory signals such as reduced strike tempo, softer rhetoric, renewed talks, and humanitarian coordination.
+
+Prediction markets can react quickly to such shifts. If markets begin pricing a higher chance of a ceasefire, analysts ask whether the change is supported by observable indicators or driven mainly by sentiment and speculation.
+
+### Using Conflict Risk Indices for Context
+
+Ceasefire prospects are also shaped by the broader risk environment. Our [Global Conflict Risk Index](/explore-global-risk-index)–style indicators—covering alliance structures, regional rivalries, and structural drivers of instability—help forecasters judge whether a ceasefire, once signed, is likely to hold.
+
+High structural risk does not rule out a ceasefire, but it may lower the probability that any agreement becomes durable peace. Markets sometimes underweight these slow-moving factors, which is why analysts compare market prices with longer-horizon risk metrics.
+
+## Scenarios for a US–Israel–Iran Ceasefire
+
+### Best-Case: Negotiated Ceasefire With Monitoring
+
+In optimistic scenarios, sustained diplomacy produces a ceasefire that includes monitoring mechanisms, clear timelines, and some form of verification. External actors—such as regional organizations or major powers—may help guarantee compliance.
+
+In this case, prediction markets might assign rising probabilities not only to an initial ceasefire by a certain date, but also to contracts tied to its survival over three or six months. Analysts would expect to see supporting signals: reduced large-scale strikes, fewer cross-border incidents, and calmer rhetoric from senior officials.
+
+### Interim Pauses and Humanitarian Windows
+
+More cautious scenarios involve temporary pauses in fighting, often framed around humanitarian corridors, prisoner exchanges, or religious holidays. These pauses can be steps toward a longer ceasefire—but they can also fail, leading to renewed escalation.
+
+Markets may price moderate near-term probabilities for short pauses while assigning lower odds to long-duration ceasefires. Forecasters watch whether humanitarian pauses are extended, broadened, or embedded in broader political talks.
+
+### Prolonged Conflict With Intermittent Lulls
+
+In pessimistic scenarios, hostilities continue with only short, fragile lulls. Negotiations may stall, spoilers may sabotage talks, or external actors may see advantage in continued pressure.
+
+Here, contracts tied to near-term ceasefires might trade at low prices, while longer-dated ones reflect uncertainty about how long the conflict can be sustained. Analysts would look for renewed spikes in [early warning signals](/early-warning-signals) such as mobilization, escalatory rhetoric, and alliance signaling.
+
+## How to Read Ceasefire Probabilities Carefully
+
+### Probabilities Are Not Guarantees
+
+A 30% market-implied probability of a ceasefire by a certain date means that in a large number of similar scenarios, a ceasefire might occur roughly three times out of ten. It does not mean that analysts “expect” a ceasefire, nor that the outcome is predetermined.
+
+Understanding this distinction is crucial for policymakers, journalists, and the public. Overinterpreting moderate probabilities can lead to misplaced optimism or pessimism about diplomatic efforts.
+
+### Ethical and Practical Limits
+
+As with all conflict-related prediction markets, ceasefire contracts raise ethical and regulatory questions. Some observers worry about the optics of trading on war outcomes; others point to potential manipulation or information asymmetries.
+
+For these reasons, most analysts treat market prices as one input alongside traditional tools: diplomatic reporting, military assessments, and qualitative scenario planning. For a broader overview of these methods, see our resources on [conflict prediction analysis](/explore-conflict-predictions).
+
+## Conclusion: Watching the Signals Without Overconfidence
+
+The question “When will a ceasefire happen in the US–Israel–Iran war?” cannot be answered with certainty. Instead, analysts track how probabilities evolve as new information arrives: diplomatic moves, battlefield dynamics, domestic politics, and external pressure.
+
+Prediction markets offer a real-time, quantified view of expectations, but they must be interpreted in context. Combining market signals with early warning indicators, conflict risk indices, and qualitative analysis helps forecasters avoid both complacency and alarmism—and keeps attention on the conditions that make a sustainable ceasefire more likely in the first place.`,
+  },
+  {
     slug: "us-preparing-attack-cuba-signals-analysts-watching",
     title: "Latest Update: Is the U.S. Preparing to Attack Cuba? Signals Analysts Are Watching",
     excerpt:
