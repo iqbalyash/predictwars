@@ -503,6 +503,140 @@ The question “When will the US–Israel–Iran war end?” does not have a fix
 Combining early warning indicators, diplomatic monitoring, prediction markets, and structural risk analysis helps build a more nuanced view of how the conflict might evolve—and what steps could make a sustainable end more likely.`,
   },
   {
+    slug: "prediction-markets-us-israel-iran-war-end",
+    title: "Prediction Markets and Global Analysts Bet on When the U.S.–Israel–Iran War Will End",
+    excerpt:
+      "How prediction markets and geopolitical analysts are estimating when the U.S.–Israel–Iran conflict could reach a ceasefire, and what signals shape those probabilities.",
+    date: "2026-03-23",
+    image: "/us-israel-iran-war-prediction.webp",
+    subtitle:
+      "Prediction platforms and geopolitical analysts estimate when the conflict could reach a ceasefire.",
+    content: `## Current Probability of a Ceasefire
+
+Prediction markets currently suggest that the U.S.–Israel–Iran conflict is unlikely to end immediately but could reach a ceasefire within the coming months.
+
+On the prediction platform Polymarket, traders estimate roughly:
+
+- **67%** probability of a ceasefire by June 30  
+- **62%** probability by May 31  
+
+These probabilities are derived from real trading activity where participants buy and sell contracts based on their expectations of geopolitical events.
+
+The market has generated more than **$19 million** in trading volume since launching the ceasefire prediction market.
+
+Prices in prediction markets represent the crowd’s collective probability estimate, meaning a price of **67** cents implies a **67%** chance of that outcome.
+
+## Heavy Betting on the Iran Conflict
+
+The war between the United States, Israel, and Iran has triggered massive betting activity across prediction platforms.
+
+According to multiple reports, traders have placed **hundreds of millions of dollars** in wagers related to:
+
+- U.S. strikes on Iran  
+- potential regime change  
+- ceasefire timelines  
+- escalation into a regional war  
+
+Overall betting across platforms like Polymarket and Kalshi has exceeded **$255 million** for Iran-related geopolitical outcomes.
+
+Several traders reportedly earned significant profits by predicting the timing of U.S. military strikes against Iranian targets.
+
+## Why Traders Don’t Expect an Immediate Ceasefire
+
+Prediction market sentiment currently suggests that a quick ceasefire is unlikely.
+
+Some estimates show only about a **one-in-four** chance of a ceasefire happening within the next month.
+
+This outlook reflects several ongoing developments:
+
+- continued missile exchanges  
+- military operations targeting Iranian infrastructure  
+- Iran’s threat to disrupt oil shipments in the Strait of Hormuz  
+
+These signals indicate that both sides still have incentives to continue military pressure.
+
+## Iran’s Strategy and Energy Pressure
+
+Iran has signaled that it may continue threatening energy routes if attacks do not stop.
+
+The Strait of Hormuz carries about **20%** of global oil supply, making it one of the most critical energy corridors in the world.
+
+Disruptions in this region can cause:
+
+- spikes in global oil prices  
+- shipping disruptions  
+- economic pressure on major economies  
+
+Because of these risks, analysts believe international diplomacy will intensify to prevent prolonged conflict.
+
+## Political Signals From Washington
+
+U.S. leadership has sent mixed signals regarding the conflict.
+
+Some U.S. officials have warned that the United States could escalate strikes if Iran threatens global energy supplies.
+
+Others have suggested the war could end sooner if Iran’s military capabilities continue to weaken.
+
+These conflicting signals contribute to volatility in prediction market probabilities.
+
+## Possible Scenarios for Ending the War
+
+Analysts typically consider four possible scenarios.
+
+### 1. Negotiated Ceasefire
+
+International mediators such as Qatar, China, or Turkey could broker negotiations that gradually reduce hostilities and establish monitoring mechanisms.
+
+### 2. Military Stalemate
+
+Neither side achieves decisive victory and both sides agree to ceasefire talks when the costs of continued fighting outweigh the perceived benefits.
+
+### 3. Rapid Escalation Then Negotiations
+
+Major escalation—for example, direct attacks on energy infrastructure or regional allies—could force international powers to intervene diplomatically and push all sides toward a deal.
+
+### 4. Regional Expansion
+
+Additional countries join the conflict, prolonging the war and making a coordinated ceasefire much harder to achieve.
+
+Prediction markets currently assign the highest probability to a negotiated ceasefire scenario, though they continue to price in meaningful risk of escalation or prolonged stalemate.
+
+## Why Prediction Markets Matter
+
+Prediction markets aggregate information from thousands of traders who analyze news, military developments, and political signals.
+
+Because traders risk real money, these markets often produce forecasts that respond faster than traditional expert predictions.
+
+However, prediction markets can also attract criticism from policymakers who argue that betting on war-related events may raise ethical concerns.
+
+## Analysts’ Forecast
+
+Combining prediction market data with geopolitical analysis suggests:
+
+- **Short-term ceasefire probability:** low  
+- **Medium-term ceasefire probability:** moderate to high  
+- **Long-term escalation risk:** moderate  
+
+Most analysts expect the conflict to continue for several months before negotiations lead to a ceasefire agreement.
+
+## Conclusion
+
+Prediction markets provide a real-time window into how traders and analysts interpret global conflicts.
+
+Current forecasts suggest that while the war between the United States, Israel, and Iran may not end immediately, market participants increasingly expect a ceasefire within the coming months.
+
+As military operations, political signals, and diplomatic negotiations evolve, prediction market probabilities will continue to adjust.
+
+## Further Reading on PredictWars
+
+For readers who want to explore related analysis, see:
+
+- [Conflict prediction analysis](/explore-conflict-predictions)  
+- [Global risk index](/explore-global-risk-index)  
+- [Early warning signals of war](/early-warning-signals)  
+- [Case studies](/deep-geopolitical-analysis)  `,
+  },
+  {
     slug: "us-preparing-attack-cuba-signals-analysts-watching",
     title: "Latest Update: Is the U.S. Preparing to Attack Cuba? Signals Analysts Are Watching",
     excerpt:
