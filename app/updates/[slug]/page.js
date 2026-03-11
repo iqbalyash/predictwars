@@ -130,6 +130,22 @@ export default async function PostPage({ params }) {
   const slug = typeof resolved.slug === "string" ? resolved.slug : resolved.slug?.[0] ?? "";
   const post = posts.find((p) => p.slug === slug);
 
+  const preferredRelatedBySlug = {
+    "when-will-us-israel-iran-war-end": [
+      "when-will-ceasefire-us-israel-iran-war",
+      "how-prediction-markets-forecast-wars",
+      "prediction-markets-estimate-probability-of-us-cuba-conflict",
+    ],
+  };
+
+  const relatedPool = preferredRelatedBySlug[slug]
+    ? preferredRelatedBySlug[slug]
+        .map((s) => posts.find((p) => p.slug === s))
+        .filter(Boolean)
+    : posts.filter((p) => p.slug !== slug);
+
+  const relatedPosts = relatedPool.filter((p) => p.slug !== slug).slice(0, 3);
+
   if (!post) {
     return (
       <div className="pw-home min-h-screen">
@@ -217,10 +233,7 @@ export default async function PostPage({ params }) {
           <section className="mt-10" aria-labelledby="related-articles-heading">
             <h2 id="related-articles-heading" className="text-lg font-semibold text-white mb-4">Related articles</h2>
             <div className="grid gap-4 sm:grid-cols-2">
-              {posts
-                .filter((p) => p.slug !== slug)
-                .slice(0, 3)
-                .map((p) => (
+              {relatedPosts.map((p) => (
                   <article
                     key={p.slug}
                     className="pw-glass border border-slate-600/50 p-4 rounded-2xl flex flex-col justify-between"

@@ -355,6 +355,154 @@ The question “When will a ceasefire happen in the US–Israel–Iran war?” c
 Prediction markets offer a real-time, quantified view of expectations, but they must be interpreted in context. Combining market signals with early warning indicators, conflict risk indices, and qualitative analysis helps forecasters avoid both complacency and alarmism—and keeps attention on the conditions that make a sustainable ceasefire more likely in the first place.`,
   },
   {
+    slug: "prediction-markets-estimate-probability-of-us-cuba-conflict",
+    title: "Prediction Markets Estimate Probability of U.S.–Cuba Conflict",
+    excerpt:
+      "How prediction markets are pricing the probability of a U.S.–Cuba conflict, and how analysts interpret those signals alongside traditional early warning indicators.",
+    date: "2026-03-21",
+    image: "/Prediction-Markets-estimate-probability-of-US-Cuba-conflict.png",
+    subtitle:
+      "How traders on major platforms are pricing the risk of a U.S.–Cuba confrontation.",
+    content: `## Why Watch Prediction Markets on U.S.–Cuba Risk?
+
+Prediction markets allow participants to trade on the probability of future events, including the risk of armed conflict. For U.S.–Cuba tensions, these markets can offer a real-time, aggregated view of how informed traders assess escalation risk—complementing traditional early warning indicators such as military posture, rhetoric, and diplomacy.
+
+Analysts do not treat market prices as definitive forecasts. Instead, they compare them to other signals to understand where expectations are rising, falling, or diverging from expert assessments.
+
+## How Contracts on U.S.–Cuba Conflict Are Structured
+
+### Defining the Event
+
+Conflict-related markets must specify what counts as a qualifying event. Contracts might be tied to a formal declaration of war, a defined threshold of military incidents, or a specific type of confrontation within a set time frame.
+
+The wording matters enormously: a contract on “U.S. and Cuba in a state of declared war by year-end” is very different from one on “a significant military incident involving U.S. and Cuban forces.” Analysts reading prices always start by understanding the underlying definitions.
+
+### Time Frames and Rolling Horizons
+
+Some markets focus on short horizons—such as the probability of a confrontation within the next three months—while others look farther ahead. Near-dated contracts tend to react more strongly to immediate developments; longer-dated ones capture views about structural risk and longer-run scenarios.
+
+When prices on near-term and long-term contracts move in different directions, it can signal that traders see short-term de-escalation but continued structural tension, or vice versa.
+
+## Signals That Can Move U.S.–Cuba Conflict Markets
+
+### Military and Security Developments
+
+Changes in U.S. naval posture in the Caribbean, new military exercises near the region, or reports of intelligence concerns can all influence how markets price conflict risk. Traders react both to official announcements and to credible open-source reporting.
+
+Analysts cross-check these movements against our broader framework for [early warning signals of war](/early-warning-signals), which includes military buildup, alliance dynamics, and preparatory behavior.
+
+### Diplomatic and Economic Measures
+
+Announcements about sanctions, diplomatic expulsions, or new talks can also move prices. A sharp deterioration in diplomatic ties may raise market-implied probabilities, while progress in dialogue or confidence-building measures may push them lower.
+
+Traders also respond to third-party mediation efforts and broader regional developments that might either amplify or dampen tensions.
+
+## Interpreting Market-Implied Probabilities Carefully
+
+### What a 10–20% Range Really Means
+
+If markets imply, for example, a 10–20% probability of a defined U.S.–Cuba conflict scenario by a certain date, it does not mean that conflict is “likely,” nor that it can be ignored. Instead, it suggests that in a large number of comparable scenarios, such an outcome might occur in roughly one or two out of ten.
+
+For policymakers and risk managers, these probabilities are often treated as triggers for contingency planning rather than predictions of inevitability.
+
+### Limits, Biases, and Ethical Concerns
+
+Participation in conflict-related prediction markets may be geographically or demographically skewed. Liquidity can be thin, and prices can occasionally reflect speculation or hedging rather than pure information about conflict risk.
+
+Ethical questions also arise when trading is tied to war outcomes. For these reasons, analysts generally use market prices as one input among many, comparing them with expert assessments, conflict risk indices, and qualitative scenario work.
+
+## How Analysts Use These Signals in Practice
+
+Researchers tracking U.S.–Cuba risk often chart prediction market prices alongside other indicators: military deployments, diplomatic statements, sanctions, and domestic political developments. Divergences between markets and expert judgment can be informative, prompting closer review of assumptions on both sides.
+
+For readers interested in methodology, see our deeper dive on [how prediction markets forecast wars](/updates/how-prediction-markets-forecast-wars) and our resources on [conflict prediction analysis](/explore-conflict-predictions).`,
+  },
+  {
+    slug: "when-will-us-israel-iran-war-end",
+    title: "When Will the US–Israel–Iran War End?",
+    excerpt:
+      "How analysts think about timelines for ending a major conflict involving the US, Israel, and Iran—and which signals might indicate that negotiations are moving from ceasefire talks toward a broader settlement.",
+    date: "2026-03-22",
+    image: "/US-Israel-Iran-War-End-bets-On-preditions-apps.png",
+    subtitle:
+      "Scenarios and indicators analysts watch when assessing how long a US–Israel–Iran conflict might last.",
+    content: `## Why “When Will the War End?” Is So Hard to Answer
+
+When conflict escalates between the US, Israel, and Iran, one of the most urgent questions for policymakers and the public is how long the confrontation might last. Wars can end through decisive victory, negotiated settlement, or gradual exhaustion—and forecasting which path will dominate is inherently uncertain.
+
+Rather than predicting a single end date, analysts think in terms of scenarios and conditional probabilities. They ask what combination of military, diplomatic, and domestic political factors would make an end to large-scale hostilities more or less likely over the next months and years.
+
+## From Ceasefire to Settlement
+
+### Ceasefires as Milestones, Not Endpoints
+
+Our analysis of [when a ceasefire might happen in the US–Israel–Iran war](/updates/when-will-ceasefire-us-israel-iran-war) emphasizes that ceasefires are important waypoints but not guaranteed endpoints. Many conflicts experience cycles of ceasefire, violation, and renewed escalation before any durable settlement is reached.
+
+When assessing when a war might “end,” analysts distinguish between a reduction in major hostilities and the conclusion of a political agreement that addresses core grievances.
+
+### Conditions for Durable De-escalation
+
+For a conflict involving the US, Israel, and Iran, several conditions would typically need to move in the right direction for a long-term settlement:
+
+- Clear incentives on all sides to avoid further escalation.
+- Mechanisms to monitor and verify compliance with agreements.
+- Regional and international actors willing to support and guarantee elements of a deal.
+
+The speed at which these conditions evolve is one of the main drivers of forecasts about when the war could end.
+
+## Indicators Analysts Watch When Evaluating Timelines
+
+### Military Trajectory and Costs
+
+Analysts track battlefield dynamics, casualty trends, and the rate of high-intensity operations. If major actors see diminishing returns from continued fighting—or fear unacceptable escalation risks—they may become more open to compromise.
+
+Conversely, actors who believe they are gaining ground may resist negotiations, extending the expected duration of the conflict.
+
+### Diplomatic Engagement and Mediation Efforts
+
+Sustained diplomatic engagement is often a prerequisite for ending wars that involve multiple powerful actors. Shuttle diplomacy, multilateral talks, and the appointment of credible mediators can all signal that serious efforts are under way to move beyond short-term ceasefires.
+
+Analysts monitor how often senior officials meet, whether negotiation agendas broaden beyond immediate security concerns, and whether previously red-line issues begin to see creative proposals.
+
+### Domestic Political Constraints
+
+Changes in leadership, elections, coalition politics, and public opinion can either unlock compromise or harden positions. Conflict timelines can lengthen when leaders are constrained by domestic audiences that strongly oppose concessions, or shorten when political incentives favor de-escalation.
+
+## Role of Prediction Markets and Risk Models
+
+### Market-Implied Timelines
+
+In some cases, prediction markets list contracts tied to the timing of ceasefires or broader settlements. While such contracts are not available for every conflict, when they exist they can provide a rough sense of how participants price near-term versus longer-term resolution.
+
+Analysts treat these prices as one signal alongside model-based estimates and expert surveys. Sharp changes can highlight moments when expectations about the war’s trajectory are shifting quickly.
+
+### Structural Conflict Risk
+
+Long-run models and [global conflict risk index](/explore-global-risk-index)–style frameworks focus on deeper drivers of instability: alliance structures, regional rivalries, governance quality, and economic pressures. These factors influence whether a settlement, once reached, is likely to hold or to break down into renewed violence.
+
+High structural risk does not preclude an end to active fighting, but it can mean that forecasts about “the end of the war” must be made with particular caution.
+
+## How to Interpret Timelines Responsibly
+
+### Embracing Uncertainty
+
+Responsible forecasting emphasizes uncertainty rather than overconfident point predictions. Analysts often communicate ranges of possible timelines—such as higher probability of significant de-escalation within one to two years—conditioned on specific assumptions about diplomacy and domestic politics.
+
+Scenario planning helps decision-makers prepare for longer wars even when they hope for faster resolution.
+
+### Focusing on Actionable Signals
+
+Instead of fixating on a specific end date, forecasters highlight the signals that would meaningfully change their expectations: breakthroughs in negotiations, major shifts in alliance behavior, changes in domestic political incentives, or unexpected escalations.
+
+By tracking these indicators, policymakers and observers can update their views as the conflict evolves, rather than anchoring on a single forecast.
+
+## Conclusion: Watching the Path, Not Just the Destination
+
+The question “When will the US–Israel–Iran war end?” does not have a fixed answer. What analysts can offer is a structured way of thinking about timelines, scenarios, and the signals that make earlier or later endings more plausible.
+
+Combining early warning indicators, diplomatic monitoring, prediction markets, and structural risk analysis helps build a more nuanced view of how the conflict might evolve—and what steps could make a sustainable end more likely.`,
+  },
+  {
     slug: "us-preparing-attack-cuba-signals-analysts-watching",
     title: "Latest Update: Is the U.S. Preparing to Attack Cuba? Signals Analysts Are Watching",
     excerpt:
