@@ -52,17 +52,6 @@ function ArticleThumbnail({ title, image }) {
 }
 
 export default function UpdatesPage() {
-  const featuredSlugs = [
-    "us-preparing-attack-cuba-signals-analysts-watching",
-    "prediction-markets-estimate-probability-of-us-cuba-conflict",
-    "when-will-us-israel-iran-war-end",
-    "how-prediction-markets-forecast-wars",
-  ];
-
-  const featuredPosts = featuredSlugs
-    .map((slug) => posts.find((p) => p.slug === slug))
-    .filter(Boolean);
-
   return (
     <div className="pw-home min-h-screen">
       <main className="mx-auto max-w-6xl px-4 py-12 sm:py-16 md:px-6 lg:px-8">
@@ -88,11 +77,11 @@ export default function UpdatesPage() {
           </p>
         </header>
 
-        {featuredPosts.length === 0 ? (
+        {posts.length === 0 ? (
           <p className="text-slate-400">No articles yet. Check back soon.</p>
         ) : (
           <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2" role="list">
-            {featuredPosts.map((post) => (
+            {posts.map((post) => (
               <li key={post.slug}>
                 <Link
                   href={`/updates/${post.slug}`}
