@@ -503,14 +503,14 @@ The question “When will the US–Israel–Iran war end?” does not have a fix
 Combining early warning indicators, diplomatic monitoring, prediction markets, and structural risk analysis helps build a more nuanced view of how the conflict might evolve—and what steps could make a sustainable end more likely.`,
   },
   {
-    slug: "prediction-markets-us-israel-iran-war-end",
-    title: "Prediction Markets and Global Analysts Bet on When the U.S.–Israel–Iran War Will End",
+    slug: "how-much-money-bet-us-israel-iran-war",
+    title: "How Much Money Has Been Bet on the U.S.–Israel–Iran War?",
     excerpt:
-      "How prediction markets and geopolitical analysts are estimating when the U.S.–Israel–Iran conflict could reach a ceasefire, and what signals shape those probabilities.",
+      "How much capital traders have staked on the U.S.–Israel–Iran conflict across major prediction platforms, and what this activity reveals about expectations and risk.",
     date: "2026-03-23",
-    image: "/us-israel-iran-war-prediction.webp",
+    image: "/iran-war-prediction-markets.webp",
     subtitle:
-      "Prediction platforms and geopolitical analysts estimate when the conflict could reach a ceasefire.",
+      "Prediction markets reveal hundreds of millions of dollars wagered on geopolitical outcomes during the Iran conflict.",
     content: `## Current Probability of a Ceasefire
 
 Prediction markets currently suggest that the U.S.–Israel–Iran conflict is unlikely to end immediately but could reach a ceasefire within the coming months.
@@ -579,53 +579,11 @@ Others have suggested the war could end sooner if Iran’s military capabilities
 
 These conflicting signals contribute to volatility in prediction market probabilities.
 
-## Possible Scenarios for Ending the War
+## Why Volume and Probabilities Must Be Read Carefully
 
-Analysts typically consider four possible scenarios.
+Even when **tens or hundreds of millions of dollars** are at stake, prediction markets remain probabilistic tools. A heavily traded contract with a price of **30** cents still implies that, in a large sample of comparable situations, the event would be expected to occur only about **30%** of the time.
 
-### 1. Negotiated Ceasefire
-
-International mediators such as Qatar, China, or Turkey could broker negotiations that gradually reduce hostilities and establish monitoring mechanisms.
-
-### 2. Military Stalemate
-
-Neither side achieves decisive victory and both sides agree to ceasefire talks when the costs of continued fighting outweigh the perceived benefits.
-
-### 3. Rapid Escalation Then Negotiations
-
-Major escalation—for example, direct attacks on energy infrastructure or regional allies—could force international powers to intervene diplomatically and push all sides toward a deal.
-
-### 4. Regional Expansion
-
-Additional countries join the conflict, prolonging the war and making a coordinated ceasefire much harder to achieve.
-
-Prediction markets currently assign the highest probability to a negotiated ceasefire scenario, though they continue to price in meaningful risk of escalation or prolonged stalemate.
-
-## Why Prediction Markets Matter
-
-Prediction markets aggregate information from thousands of traders who analyze news, military developments, and political signals.
-
-Because traders risk real money, these markets often produce forecasts that respond faster than traditional expert predictions.
-
-However, prediction markets can also attract criticism from policymakers who argue that betting on war-related events may raise ethical concerns.
-
-## Analysts’ Forecast
-
-Combining prediction market data with geopolitical analysis suggests:
-
-- **Short-term ceasefire probability:** low  
-- **Medium-term ceasefire probability:** moderate to high  
-- **Long-term escalation risk:** moderate  
-
-Most analysts expect the conflict to continue for several months before negotiations lead to a ceasefire agreement.
-
-## Conclusion
-
-Prediction markets provide a real-time window into how traders and analysts interpret global conflicts.
-
-Current forecasts suggest that while the war between the United States, Israel, and Iran may not end immediately, market participants increasingly expect a ceasefire within the coming months.
-
-As military operations, political signals, and diplomatic negotiations evolve, prediction market probabilities will continue to adjust.
+Volume can make prices more informative by reducing noise and improving liquidity, but it cannot eliminate uncertainty. Structural drivers of conflict, leadership decisions, and unexpected shocks can all push real‑world outcomes far from market expectations.
 
 ## Further Reading on PredictWars
 
