@@ -30,6 +30,9 @@ export const metadata = {
   robots: { maxImagePreview: "large" },
   verification: {
     google: "APp84xEubrUcPdWTB9sJYpSvR4nPOTeL6lJCvRmbu3Q",
+    other: {
+      "msvalidate.01": "56D37769910548C16AE2E44F67CCBC3F",
+    },
   },
   icons: {
     icon: "/Predict-wars-icon.png",
